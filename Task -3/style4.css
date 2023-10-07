@@ -1,0 +1,70 @@
+body{
+    background-image: radial-gradient(circle,#eaeaf0,#82b882,black);
+}
+.container{
+ text-align: center;
+ margin-top: 150px;
+ font-family: sans-serif;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-stretch:extra-expanded;
+    letter-spacing: 5px;
+    font-size: 3rem;
+}
+input{
+    /* margin-block: 18px; */
+    font-size: 27px;
+    background-color:#656161;
+    color: white;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    
+}
+
+  table{
+  margin: auto;    
+  }
+.cal{
+    background-image:linear-gradient(to top,#262628,#a68f8f);
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    padding: 15px;
+    /* background-color: #183b56; */
+    border-radius: 10px;
+    /* height: 580px;
+    width:350px; */
+}
+td button{
+    background-color: rgb(235 240 238);
+    outline: none;
+    font-size: 2rem;
+    padding: 10px;
+    /* width: ; */
+}
+
+button{
+    font-size: 20px;
+    margin: 8px;
+    width: 4rem;
+    height: 60px;
+    color: black;
+    /* background: rgb(23, 36, 23); */
+    cursor: pointer;
+    /* box-shadow: -6px -6px 15px rgba(255, 255, 255, 0.1); */
+    border-radius: 30%;
+    border: none;
+    /* background: transparent; */
+    outline: none;
+}
+button:hover{
+ background-color: rgb(124, 121, 121);
+  color: orangered;
+}
+
+.operator{
+    background-color: rgb(76, 198, 246);
+    color: #0b0b0b;
+}
